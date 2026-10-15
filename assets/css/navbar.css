@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1200px) {
+    .nav-container {
+        margin: 1em;
+        border-top: 2px solid var(--navbar-color);
+        border-bottom: 2px solid var(--navbar-color);
+        background-color: transparent;
+        border-radius: 0.5em;
+        font-family: var(--font-sans);
+        color: var(--navbar-color);
+    }
+    .nav-links {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .nav-links > div {
+        padding: 1em;
+    }
+    .nav-links > div:hover {
+        background-color: var(--navbar-hover-color);
+        color: white;
+        border-radius: 5em;
+        
+    }
+}

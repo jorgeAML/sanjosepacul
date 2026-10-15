@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8">
-        <title>San Jose Pacul</title>
-        <meta property="og:title" content="San Jose Pacul">
-        <meta property="og:description" content="Encuentra novedades, tips, noticias y como invertir en la comunidad de San Jose Pacul, Guatemala.">
+        <title>{{page.title}}</title>
+        <meta property="og:title" content="{{page.meta-title}}"/>
+        <meta property="og:description" content="{{page.meta-description}}"/>
+        <meta name="title" content="{{page.meta-title}}"/>
+        <meta name="description" content="{{page.meta-description}}"/>
+        <meta name="copyright" content="{{page.meta-copyright}}"/>
+        <meta name="keywords" content="{{page.meta-keywords}}"/>
+        <meta property="og:type" content="{{page.meta-type}}"/>
+        <meta property="og:url"content="{{page.meta-url}}"/>
+        {% include head.html %}
     </head>
     <body>
-        <h1>Welcome to San Jose Pacul</h1>
+        {% include navIndex.html %}
+        {{ content }}
     </body>
 </html>
