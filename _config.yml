@@ -22,9 +22,9 @@ title: San Jose Pacul
 email: martjorge8@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Encuentra novedades, tips, noticias y como invertir en la comunidad de San Jose Pacul, Guatemala.
-baseurl: "sanjosepacul.com" # the subpath of your site, e.g. /blog
-url: "https://sanjosepacul.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jogreAML
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jorgeAML
 github_username:  jorgeAML
 
 # Build settings

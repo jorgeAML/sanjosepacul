@@ -1,15 +1,8 @@
 @media screen and (min-width: 1200px) {
     header {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        height: 90vh;
-        border-bottom: 3px solid var(--navbar-color);
+        
     }
     .title-header {
-        font-family: var(--font-alegreya);
-        font-size: 10em;
-        color: var(--navbar-color);
-        text-align: center;
+        
     }
 }
