@@ -4,7 +4,12 @@
     --navbar-hover-color: #dbb561;
     --font-sans: 'Julius Sans One', sans-serif;
     --font-alegreya: 'Alegreya SC', serif;
-    --background-color: #e0d8d8;
+    --font-dantene: 'Dantene', serif;
+    --background-color: #fff;
+}
+@font-face {
+    font-family: 'Dantene';
+    src: url("./fonts/Dantene.otf") format("truetype");
 }
 *, *::before, *::after {
 	box-sizing: inherit;

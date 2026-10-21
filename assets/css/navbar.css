@@ -5,6 +5,10 @@
         color: var(--navbar-color);
         text-align: center;
     }
+    .nav-container-row > h2 {
+        font-size: 3em;
+        font-family: var(--font-dantene);
+    }
     .row::after {
         content: "";
         display: table;
