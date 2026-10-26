@@ -15,7 +15,24 @@
     <body>
         {% include navIndex.html %}
         <header>
-            
+            <div class="header-container">
+                <div class="row-header">
+                    <div class="column-6">
+                        <img src="{{page.header-image1}}" alt="page.alt-image1" class="img-header">
+                        <div class="header-text">
+                            <h1>{{page.header-card-img-title}}</h1>
+                            <p>{{page.header-card-img-subtitle}}</p>
+                        </div>
+                    </div>
+                    <div class="column-6">
+                        <img src="{{page.header-image2}}" alt="page.alt-image2" class="img-header">
+                        <div class="header-text">
+                            <h1>{{page.header-card-img2-title}}</h1>
+                            <p>{{page.header-card-img2-subtitle}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
         
         {{ content }}

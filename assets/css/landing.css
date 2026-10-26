@@ -1,8 +1,32 @@
 @media screen and (min-width: 1200px) {
-    header {
-        
+    .header-container {
+        margin: 1.5em;
     }
-    .title-header {
-        
+    .row-header {
+        margin: 0;
     }
+    .img-header {
+        border-radius: 1em;
+        position: relative;
+        object-fit: cover;
+        width: 100%;
+    }
+    .header-text {
+        position:relative;
+        margin: -15% 5% 0 5%;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 1em;
+    }
+    .header-text h1 {
+        font-family: var(--font-dantene);
+        color: var(--text-color);
+        text-align: center;
+    }
+    .header-text p {
+        font-family: var(--font-alegreya);
+        color: var(--text-color);
+        text-align: center;
+        margin-top: -1em;
+    }
+
 }
